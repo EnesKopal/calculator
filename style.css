@@ -1,0 +1,59 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:15%;
+  background-color: darkgray;
+}
+
+#calculator{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    background-color:black;
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+
+  #screen {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+  }
+
+  #display {
+    padding: 5px;
+    width: 66%;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 50px;
+    word-wrap: break-word;
+  }
+  #number{
+    border:none;
+    border-radius: 50px;
+  }
+  #operator{
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+  }
+  .deleter{
+    border: none;
+    border-radius: 50px;
+  }
+  #keys {
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  button {
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color:grey;
+    color:white;
+  }
